@@ -27,6 +27,6 @@ Testing multiplatform development with web technologies stack on raspberry pi or
 
 [_] develop dinamic serial port detection
 
-[_]discover how to with arduino driver on exec time
+[_ ]discover how to handle arduino driver on exec time, on diferent platforms
 
 [_] compile multiplatform binaries
