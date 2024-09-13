@@ -4,13 +4,13 @@ const electron_1 = require("electron");
 let mainWindow;
 function createWindow() {
     mainWindow = new electron_1.BrowserWindow({
-        width: 800,
-        height: 600,
         webPreferences: {
-            nodeIntegration: true,
-        },
+            nodeIntegration: true, // Habilitar Node.js no renderizador
+            contextIsolation: false
+        }
     });
-    mainWindow.loadFile('src/index.html');
+    mainWindow.webContents.openDevTools();
+    mainWindow.loadFile('src/index.html'); // Carregar o arquivo HTML no processo de renderização
     mainWindow.on('closed', () => {
         mainWindow = null;
     });
