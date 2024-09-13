@@ -1,4 +1,7 @@
-#sheety pong program controlled by joystick to tests development stack on raspberry pi or any other machine but with arduino serial comunication
+# shitty pong program controlled by joystick
+
+
+Testing multiplatform development with web technologies stack on raspberry pi or any other machine through arduino serial comunication
 
 - run:
 
@@ -14,4 +17,16 @@
 `npm start`
 
 
-Contributions are very welcome :D
+
+
+*Contributions are very welcome*
+
+:wink:
+
+#### To-Do:
+
+[_] develop dinamic serial port detection
+
+[_]discover how to with arduino driver on exec time
+
+[_] compile multiplatform binaries
